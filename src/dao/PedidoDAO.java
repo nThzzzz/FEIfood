@@ -4,17 +4,17 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement; // Para retornar a chave gerada
-import java.sql.Timestamp; // Para LocalDateTime e ResultSet
+import java.sql.Statement; 
+import java.sql.Timestamp; 
 import java.time.LocalDateTime;
 import model.Pedido;
 import model.Alimento;
-import model.Usuario; // Necessário para listarPedidosPorUsuario implicitamente
-import java.util.ArrayList; // Necessário para futuros métodos de leitura
+import model.Usuario;
+import java.util.ArrayList; 
 import java.util.HashMap;
-import java.util.LinkedHashMap; // Para manter a ordem de inserção dos itens
-import java.util.List; // Necessário para futuros métodos de leitura
-import java.util.Map; // Para iterar sobre os itens do pedido e retornar itens
+import java.util.LinkedHashMap; 
+import java.util.List; 
+import java.util.Map;
 
 public class PedidoDAO {
 
