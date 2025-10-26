@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import model.Alimento;
-import model.Bebida; // Necessário para buscarAlimentoPorId
-import model.Comida; // Necessário para buscarAlimentoPorId
-import model.Estabelecimento; // Necessário para buscarAlimentoPorId
+import model.Bebida; 
+import model.Comida; 
+import model.Estabelecimento; 
 
 public class AlimentoDAO {
 
